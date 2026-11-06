@@ -2,36 +2,35 @@
 
 **One coordinated workspace for marketing execution.**
 
-Marketing OS is a JIDOKA Group product designed to help founder-led teams connect strategy, brand context, content operations, approvals, scheduling, and performance review. This repository is a **public product showcase**, not the production source code.
+[**Launch the interactive synthetic demo**](https://tdong1919-dev.github.io/Marketing-OS-Showcase/) · [Crystal's portfolio](https://crystalthuydong.netlify.app)
 
-## What visitors can explore
+Marketing OS is a JIDOKA Group product for founder-led teams connecting strategy, brand context, creative review, campaign planning and execution. This repository is a **public product showcase**, not the production source code.
 
-- **Core Command:** a unified view of work status, next actions, and review queues.
-- **Content operations:** example planning, generation review, and publishing workflow.
-- **Campaign workspace:** a sample journey from campaign brief to tasks and measurable outcomes.
-- **Market intelligence:** example research summaries and decisions grounded in publicly available or fabricated data.
+## Try the interactive workspace
 
-## Interactive demo status
+The standalone demonstration includes:
 
-A separate **synthetic-data-only interactive sandbox** is being prepared. It will operate without connections to JIDOKA's production systems, customer records, private Scout logic, or live business metrics.
+- **Core Command:** a unified view of sample work status and next decisions.
+- **Content Studio:** approve or request revisions to fictional creative drafts.
+- **Campaign Planning:** explore a brief and add an example review task.
+- **Sample Insights:** illustrative, fabricated values to demonstrate the interface.
+- **Example brand selector:** switch between two invented companies.
 
-Until that isolation is verified, the internal Marketing OS deployment is not linked here as a public demo.
+All interactions run only in browser memory and reset on refresh. **No login, database, network API, customer record, production metric, automated publication or private Scout capability is connected.** This is an illustrative product walkthrough, not a copy of the production UI.
 
 ## Product ownership
 
 **Crystal Thuy Dong — Founder, product strategy & systems design.** I defined the operating problem, product direction, workflow boundaries, and coordination between technical implementation and business use.
 
-**Design principles:** clear decision ownership; human review for consequential actions; connected context; measurable outcomes; progressive automation only where the workflow supports it.
+Design principles: explicit decision ownership; human review for consequential actions; connected context; measurable outcomes; progressive automation only when the workflow supports it.
 
-## Product boundaries
+## Proprietary boundaries
 
-**Scout** is a related JIDOKA prospect research and outreach product. Its private research methods, internal agent orchestration, prompts, scoring logic, and data are not included in this showcase.
+The operational Marketing OS application and source code remain private. Scout's prospect research methods, orchestration, scoring, prompts, internal data and architecture are intentionally excluded. The public example contains synthetic content only.
 
-All examples published in this repository must be fictional or explicitly authorized for public use. Do not upload real client names, emails, campaign reports, CRM records, keys, prompts, or internal diagrams.
+The source here is the simplified public demonstration, not the production implementation. Copyright © 2026 Crystal Thuy Dong / JIDOKA Group. All rights reserved. No license to private source code or JIDOKA intellectual property is granted.
 
-## Learn more
+## More
 
 - [Crystal Thuy Dong — portfolio](https://crystalthuydong.netlify.app)
 - [Personal GitHub profile](https://github.com/tdong1919-dev)
-
-*Proprietary product. Public access to this showcase does not grant rights to JIDOKA's private implementation or business information.*
