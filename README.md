@@ -47,6 +47,29 @@ The public sandbox intentionally illustrates several product-design choices:
 
 This is **not a claim that the demo reproduces the production backend, security model, orchestration, or data architecture**. Those details are intentionally not published.
 
+## Customer-data and activation product lens
+
+The interactive showcase emphasizes campaign execution, while a production marketing technology ecosystem also needs a dependable customer-data foundation. The following are **product requirements and evaluation questions**, not claims of features implemented in this public demo or of prior ownership of a commercial CDP.
+
+| Product concern | Questions I would resolve with Data, Marketing and Engineering | Evidence or acceptance criteria |
+| --- | --- | --- |
+| **Customer profile and identity** | Which first-party identifiers may connect a site visit, form submission, purchase, and messaging subscription? When must profiles stay separate? | Documented matching rules, merge safeguards, and a test set for duplicate and ambiguous identities |
+| **Events and taxonomy** | What does a campaign interaction, content approval, conversion, or opt-in event mean across channels? | Versioned event dictionary with owners, required properties, validation, and lineage |
+| **Segmentation** | Which customer attributes and behaviors define an eligible audience, and how recent must the data be? | Explicit inclusion/exclusion rules, refresh cadence, and reproducible audience counts |
+| **Consent and governance** | What permission applies to each channel and purpose, and how is withdrawal propagated? | Consent source and timestamp, suppression rules, audit trail, and negative-path tests |
+| **Activation and reliability** | How should approved audiences reach email, SMS, paid media, or personalization platforms? | Destination contracts, failure/retry handling, latency and data-quality monitoring |
+
+A representative **future workflow** could be: consented customer event → validated profile update → audience eligibility decision → human-approved campaign → channel activation → outcome event and measurement. The public demo stops at illustrative internal decisions and linked synthetic records; it does not ingest identity data, resolve customer profiles, or send messages to external destinations.
+
+### Product ownership artifacts I would prepare
+
+1. **Discovery and stakeholder map:** Commerce, Data, Integrated Marketing, Engineering, Privacy and customer-experience owners; current systems and pain points.
+2. **Data dictionary and event contract:** Definitions, producers, consumers, consent purpose, quality checks, retention expectations, and schema-change ownership.
+3. **Roadmap and build-versus-buy framework:** Prioritize high-value use cases by customer impact, implementation risk, dependency, cost, and measurable outcomes.
+4. **Release gates:** Verify identity behavior, consent enforcement, destination payload mapping, observability, and rollback before activating real customer journeys.
+
+This is a transparent view of how I would approach customer-data product management, not a representation that all these capabilities are already shipped.
+
 ## My contribution
 
 **Crystal Thuy Dong — Founder, product strategy and systems design**
